@@ -1,0 +1,10 @@
+﻿
+/// Session started at: 7/26/2008 9:23:49 PM
+/// TheGrid v1.0.0.0
+
+[21:23:49] Unable to find config file. Attempted to load: Config.txt
+
+/// Session started at: 1/7/2013 5:40:29 PM
+/// TheGrid v1.0.0.0
+
+[17:40:29] Unable to find config file. Attempted to load: Config.txt

@@ -1,0 +1,22 @@
+// System settings
+
+ShowFPS: False
+Windowed: False
+DesiredWidth: 1024
+DesiredHeight: 768
+WindowTitle: The Grid
+
+// Bloom settings
+
+UseBloom: True
+BloomBlur: 6
+BloomScale: 4
+BloomBrightPassThreshold: 0
+
+// Grid settings
+
+Resolution: 50
+NodeMass: 5
+SpringConstant: 100
+SpringDamping: 0.5
+CursorInfluenceMagnitude: 10000

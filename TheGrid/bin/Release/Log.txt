@@ -1,0 +1,28 @@
+﻿
+/// Session started at: 7/26/2008 9:23:54 PM
+/// TheGrid v1.0.0.0
+
+[21:23:54] Failed to load Materials. Exception text: System.IO.FileNotFoundException: Could not load file or assembly 'Microsoft.DirectX.Direct3DX, Version=1.0.2911.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The system cannot find the file specified.
+File name: 'Microsoft.DirectX.Direct3DX, Version=1.0.2911.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35'
+   at Gas.Graphics.Texture..ctor(Renderer renderer, String filename)
+   at Gas.Graphics.GlobalResourceCache.CreateTextureFromFile(Renderer renderer, String filename) in E:\Code\Projects\Gas\Gas\Graphics\ResourceCache.cs:line 47
+   at Gas.Graphics.Material.FromFile(Renderer renderer, String xmlFilename) in E:\Code\Projects\Gas\Gas\Graphics\Material.cs:line 246
+   at Gas.Graphics.GlobalResourceCache.CreateMaterialFromFile(Renderer renderer, String filename) in E:\Code\Projects\Gas\Gas\Graphics\ResourceCache.cs:line 110
+   at Gas.Graphics.Renderer.LoadMaterials() in E:\Code\Projects\Gas\Gas\Graphics\Renderer.cs:line 540
+   at Gas.Graphics.Renderer..ctor(Boolean windowed, Control renderTarget, Int32 desiredWidth, Int32 desiredHeight) in E:\Code\Projects\Gas\Gas\Graphics\Renderer.cs:line 380
+
+WRN: Assembly binding logging is turned OFF.
+To enable assembly bind failure logging, set the registry value [HKLM\Software\Microsoft\Fusion!EnableLog] (DWORD) to 1.
+Note: There is some performance penalty associated with assembly bind failure logging.
+To turn this feature off, remove the registry value [HKLM\Software\Microsoft\Fusion!EnableLog].
+
+[21:23:54] Unable to initialize the renderer.
+
+/// Session started at: 10/13/2012 3:18:09 PM
+/// TheGrid v1.0.0.0
+
+[15:18:09] Failed to initialize Direct3D. Exception text: Unable to create the Direct3D device.
+-2146232832 (Unknown)
+   at Gas.Graphics.Renderer.InitializeDirect3D(Boolean windowed, Control renderTarget, Int32 desiredWidth, Int32 desiredHeight) in E:\Code\Projects\Gas\Gas\Graphics\Renderer.cs:line 863
+   at Gas.Graphics.Renderer..ctor(Boolean windowed, Control renderTarget, Int32 desiredWidth, Int32 desiredHeight) in E:\Code\Projects\Gas\Gas\Graphics\Renderer.cs:line 370
+[15:18:09] Unable to initialize the renderer.
